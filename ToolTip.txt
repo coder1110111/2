@@ -1,0 +1,4 @@
+View folder holds bunch of html pages 
+Routes hold methods that we use. This is essentially used to make the code look clean\
+package.json holds the list of 'dependencies' along with a modified Script "start"
+ 
