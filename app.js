@@ -10,10 +10,17 @@ app.use(express.static(path.join(__dirname,'public'))); //grant read access to '
 
 const adminRoutes=require("./routes/admin.js");
 const shopRoutes=require("./routes/shop.js");
+const contactRoutes=require("./routes/contact.js");
+const feedbackRoutes=require("./routes/success.js");
 
 app.use('/admin',adminRoutes);
 
 app.use('/shop',shopRoutes);
+
+app.use('/contact',contactRoutes);
+
+app.use('/success',feedbackRoutes);
+
 
 
     /*app.use("/add-product",(req,res,next)=>{
